@@ -1,4 +1,4 @@
-#Developer - Eden
+#Developer - Eden Iyanda
 #This program prompt you to guess my name
 print("Welcome!!")
 guess_word = "Eden"
