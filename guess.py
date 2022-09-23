@@ -1,6 +1,5 @@
 #Developer - Eden Iyanda
 #This program prompt you to guess my name
-#keep it in mind that you have 3 trials
 print("Welcome!!")
 guess_word = "Eden"
 guess_count = 1
