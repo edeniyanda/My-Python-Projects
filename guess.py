@@ -1,7 +1,7 @@
 #Developer - Eden Iyanda
 #This program prompt you to guess my name
 print("Welcome!!")
-guess_word = "Eden"
+guess_word = "eden"
 guess_count = 1
 guess_limit = 3
 trial_off = False
@@ -9,12 +9,13 @@ trial = 3
 s = "s"
 while True:
     word = input("Enter my name")
+    wr = (word.upper)
     try:
-        float(word)
+        float(wr)
         print("Invalid input, Please enter a Alphabetical data")
         continue
     except:
-        fw = str(word)
+        fw = str(wr)
         break
 
 while fw != guess_word and not(trial_off):
