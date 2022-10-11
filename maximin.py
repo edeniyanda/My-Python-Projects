@@ -55,7 +55,7 @@ while try_again:
             another = ""
             a = "a "
             continue  
-    print("You've entered", counts, "inputs so far and your maximun input is", largest, "and your minimum input is", smallest)
+    print("You've entered", counts, "inputs so far and your maximun input is", largest, "while your minimum input is", smallest)
     t_a = input("Do you want to run the progam again? (Enter (y) for Yes and (n) for no)")
     if t_a == "y":
         try_again = True
@@ -65,6 +65,8 @@ while try_again:
         smallest = None
     elif t_a == "n":
         try_again = False
-        print("Have a nice day!")
+        break
     else:
         print("Invalid Input")
+
+print("Have a nice day!")
